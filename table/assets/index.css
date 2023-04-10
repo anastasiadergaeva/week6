@@ -1,0 +1,26 @@
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+
+.main-content {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 80px;
+    gap: 10px;
+}
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-content: center;
+}
+
+.main-content {
+    grid-column:1/3;
+    grid-row: 2/4;
+}
